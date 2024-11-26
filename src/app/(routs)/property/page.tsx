@@ -6,7 +6,7 @@ import './property.css';
 
 const Properties = () => {
   return (
-    <div className="properties-section">
+    <div className="properties--section">
       <div className="properties-container">
         <h1 className='heading'>Discover Our Properties</h1>
         <p className='para'>Explore Our Stunning Property Listings!</p>
