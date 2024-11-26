@@ -1,0 +1,102 @@
+/* navbar.css */
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 100;
+    transition: all 0.2s ease-in-out;
+    padding: 1rem;
+  }
+  
+  .navbar.bg-active {
+    background-color: #1e3a8a; /* Tailwind bg-blue-950 */
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-circle {
+    width: 2rem;
+    height: 2rem;
+    background-color: #be123c;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .nav-links {
+    display: none; /* Hidden by default */
+    align-items: center;
+    gap: 3.5rem;
+    color: #ffffff;
+  }
+  
+  .nav-links a {
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #fbbf24;
+  }
+  
+  /* Display nav links on larger screens */
+  @media (min-width: 1024px) {
+    .nav-links {
+      display: flex; /* Show links on larger screens */
+    }
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .login-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: #ffffff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .login-button:hover {
+    color: #ef4444;
+  }
+  
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  /* Hide burger menu on larger screens */
+  @media (min-width: 1024px) {
+    .burger-menu {
+      display: none; /* Hide on desktop */
+    }
+  }
+  

@@ -1,0 +1,141 @@
+/* Footer Container */
+.footer-container {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: black;
+  }
+  
+  /* Footer Grid */
+  .footer-grid {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* 1st Footer Part */
+  .footer-logo-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footer-logo-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #c62828; /* rose-700 */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .footer-description {
+    color: #d1d5db; /* gray-300 */
+    margin-top: 1.5rem;
+  }
+  
+  .footer-contact {
+    color: #d1d5db; /* gray-300 */
+    margin-top: 1.25rem;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .footer-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.3s;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.05);
+  }
+  
+  .footer-icon:nth-child(1) {
+    color: #1877f2; /* Facebook */
+  }
+  
+  .footer-icon:nth-child(2) {
+    color: #1da1f2; /* Twitter */
+  }
+  
+  .footer-icon:nth-child(3) {
+    color: #ff0000; /* YouTube */
+  }
+  
+  .footer-icon:nth-child(4) {
+    color: #e4405f; /* Instagram */
+  }
+  
+  .footer-icon:nth-child(5) {
+    color: #0077b5; /* LinkedIn */
+  }
+  
+  /* Footer Sections (2nd, 3rd, 4th) */
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-heading {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .footer-link {
+    color: #d1d5db; /* gray-300 */
+    margin-top: 1rem;
+  }
+  
+  /* Media Queries for Mobile/Tablet */
+  @media (max-width: 768px) {
+    .footer-container {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  
+    .footer-title {
+      font-size: 1rem;
+    }
+  
+    .footer-social-icons {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  }
+  

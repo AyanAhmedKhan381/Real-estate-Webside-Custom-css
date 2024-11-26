@@ -1,0 +1,23 @@
+.section-heading {
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .section-heading__heading {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 700; /* font-bold */
+    color: #2d3748; /* text-gray-800 */
+  }
+  
+  .section-heading__heading--sm {
+    font-size: 1.875rem; /* sm:text-3xl */
+  }
+  
+  .section-heading__subheading {
+    font-size: 0.875rem; /* text-sm */
+    color: #4a5568; /* text-gray-700 */
+  }
+  
+  .section-heading__container {
+    /* Any additional container styles, if needed */
+  }
+  

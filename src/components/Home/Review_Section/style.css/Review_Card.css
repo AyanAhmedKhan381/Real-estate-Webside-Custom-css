@@ -1,0 +1,66 @@
+.review-card {
+    background-color: #ffffff; /* bg-white */
+    border-radius: 0.5rem; /* rounded-lg */
+    margin: 0.75rem; /* m-3 */
+    padding: 1.5rem; /* p-6 */
+    position: relative;
+  }
+  
+  .quote-icon {
+    width: 2rem; /* w-8 */
+    height: 2rem; /* h-8 */
+    position: absolute;
+    top: 1rem; /* top-4 */
+    right: 1rem; /* right-4 */
+    color: #dc2626; /* text-red-600 */
+    opacity: 0.2; /* opacity-20 */
+  }
+  
+  .stars-container {
+    margin-top: 1.5rem; /* mt-6 */
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-icon {
+    width: 1rem; /* w-4 */
+    height: 1rem; /* h-4 */
+    color: #fbbf24; /* text-yellow-500 */
+  }
+  
+  .review-text {
+    margin-top: 1.5rem; /* mt-6 */
+    font-size: 1rem; /* text-base */
+    color: #4b5563; /* text-gray-600 */
+    font-weight: 500; /* font-medium */
+  }
+  
+  .divider {
+    width: 100%; /* w-full */
+    height: 1.2px; /* h-[1.2px] */
+    background-color: #4b5563; /* bg-gray-600 */
+    opacity: 0.2; /* opacity-20 */
+    margin-top: 1.5rem; /* mt-6 */
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* space-x-4 */
+  }
+  
+  .user-image {
+    border-radius: 9999px; /* rounded-full */
+  }
+  
+  .user-name {
+    font-weight: bold; /* font-bold */
+    color: #1f2937; /* text-gray-800 */
+  }
+  
+  .user-profession {
+    font-size: 0.875rem; /* text-sm */
+    color: #6b7280; /* text-gray-500 */
+  }
+  

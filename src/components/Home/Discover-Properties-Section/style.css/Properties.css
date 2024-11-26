@@ -1,0 +1,32 @@
+.properties-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f3f4f6;
+  }
+  
+  .properties-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .properties-grid {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .properties-grid {
+      margin-top: 5rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .properties-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

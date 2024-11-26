@@ -1,0 +1,86 @@
+.blog-card {
+    background-color: white; /* bg-white */
+    border-radius: 0.375rem; /* rounded-md */
+    overflow: hidden; /* overflow-hidden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: box-shadow 0.3s; /* transition-shadow duration-300 */
+  }
+  
+  .blog-card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* hover:shadow-lg */
+  }
+  
+  .blog-card-image {
+    width: 100%; /* w-full */
+    height: 100%; /* h-full */
+  }
+  
+  .blog-card-content {
+    padding: 1.5rem; /* p-6 */
+  }
+  
+  .blog-card-meta {
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+    justify-content: space-between; /* justify-between */
+  }
+  
+  .blog-card-meta-item {
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+    gap: 0.5rem; /* space-x-2 */
+  }
+  
+  .blog-card-meta-icon {
+    color: #f43f5e; /* text-rose-500 */
+  }
+  
+  .blog-card-meta-text {
+    font-size: 0.875rem; /* text-sm */
+    color: #374151; /* text-gray-700 */
+  }
+  
+  .blog-card-title {
+    margin-top: 1.5rem; /* mt-6 */
+    margin-bottom: 0.5rem; /* mb-2 */
+    font-weight: bold; /* font-bold */
+    cursor: pointer; /* cursor-pointer */
+    font-size: 1.125rem; /* text-lg */
+    color: #374151; /* text-gray-700 */
+  }
+  
+  .blog-card-title:hover {
+    text-decoration: underline; /* hover:underline */
+  }
+  
+  .blog-card-description {
+    color: #6b7280; /* text-gray-500 */
+    font-size: 1rem; /* text-base */
+  }
+  
+  .blog-card-readmore {
+    margin-top: 1rem; /* mt-4 */
+    display: flex; /* flex */
+    align-items: center; /* items-center */
+    gap: 0.5rem; /* space-x-2 */
+    font-weight: bold; /* font-bold */
+    cursor: pointer; /* cursor-pointer */
+  }
+  
+  .blog-card-readmore:hover {
+    color: #ef4444; /* hover:text-red-500 */
+  }
+  
+  .blog-card-readmore-icon {
+    animation: pulse 1.5s infinite; /* animate-pulse */
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  

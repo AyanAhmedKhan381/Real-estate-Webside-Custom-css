@@ -1,0 +1,42 @@
+.properties-section {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    background-color: black;
+  }
+  
+  .properties-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .properties-grid {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .heading{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    margin-top: 4rem;
+  }
+  .para{
+    font-size: small;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .properties-grid {
+      margin-top: 5rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .properties-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

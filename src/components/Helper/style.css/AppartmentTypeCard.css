@@ -1,0 +1,21 @@
+.appartment-card {
+    border-radius: 0.5rem; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 1.5rem;
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .appartment-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .appartment-card-title {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    font-weight: 600; 
+  }
+  
+  .appartment-card-info {
+    color: #4B5563;
+  }
+  
